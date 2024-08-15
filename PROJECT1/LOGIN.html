@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/07aa23fa7d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <h2>Login</h2>
+    <form action="">
+        <div class="formgroup">
+            <input type="text"  class="username" value="" required >
+            <label for="">UserName</label>
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+        <div class="formgroup">
+            <input type="password" required>
+            <label for="">Enter password</label>
+            <i class="fa-solid fa-lock"></i>
+            
+            
+        </div>
+        <p>
+            <input type="checkbox">Remember
+             Me <a href="#">forget password</a>
+
+        </p>
+        <input type="button" id="btn" value="login">
+        <p>don't Have An Account?
+            <a href="#">Register</a> 
+        </p>
+    </form>
+</div>
+<script>
+name=document.querySelector(".username").value;
+console.log(name);
+
+</script>
+</body>
+</html>
